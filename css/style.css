@@ -36,6 +36,13 @@ body{
     display: flex;
     
 }
+.align-items{
+    align-items:center
+}
+.space-between{
+    justify-content: space-between;
+    
+}
 /* SERCH */
 .serch{
     
@@ -48,6 +55,9 @@ body{
     background-color:#eaeaea ;
 
 }
+
+
+
 /* HOME */
 .home{
     
@@ -55,4 +65,29 @@ body{
     width: 60%;
     /* debug */
     background-color: blue;
+}
+
+/* RESPONSIVE  TABLET */
+@media screen and (max-width:769px) {
+    .none{
+        display: none;
+    }
+    .serch{
+        width: 10%;
+
+    }
+    .home{
+        width: 90%;
+    }
+}
+
+/* RESPONSIVE MOBILE  */
+@media screen and (max-width:426px) {
+    .serch{
+        display: none;
+    }
+    .home{
+        width: 100%;
+    }
+    
 }
