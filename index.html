@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <!-- container -->
     <div class="wraper">
 
         <div class="baby-container">
             <div class="row min-height">
+                <!-- LEFT SCREEN -->
                 <div class="col serch min-height">
+                    <!-- HEADER -->
                     <header class="header-serch row space-between align-items
                     " id="home-profile">
 
@@ -24,12 +31,47 @@
                         </div>
 
                     </header>
+                    <!-- /HEADER -->
+
+
+                    <!-- notifications -->
+                    <div class="row bg-celest none">
+                        <div class="col ">
+                            <span class="silence"><i class="fa-regular fa-bell-slash"></i></span>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <p>Ricevi notifiche di nuovi messagi</p>
+                            </div>
+                            <div>
+                                <p class="notifi">attiva notifiche dekstop</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /notifications -->
+
+                    <!-- <nav> -->
+                    <nav class="header-serch">
+                        
+                        <input class="contact-search" type="search" id="cerca" name="cerca
+                        " placeholder="cerca o inizia una nuova chat">
+                        
+                    </nav>
+                    <!-- </nav> -->
+
+                    <!-- <main> list friends -->
+                    <main>
+
+                    </main>
+                    <!-- </main> list firends -->
                 </div>
+                <!-- RIGHT SCEERN -->
                 <div class="col home min-height"></div>
             </div>
         </div>
-        
+
     </div>
     <!-- container -->
 </body>
+
 </html>

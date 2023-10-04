@@ -51,13 +51,36 @@ body{
     background-color: red;
     border: 1px solid black;
 }
+
+/* HEADER SERCH */
 .header-serch{
     background-color:#eaeaea ;
 
 }
 
+/* NOTIFICATION */
+.bg-celest{
+    background-color: #8edafc;
+    padding: 1rem;
+}
+.silence{
+    background-color: #eaeaea;
+    border-radius: 25px;
+    font-size: 2rem;
+    padding: .5rem;
+    color: #8edafc;
+    margin-right: 1rem;
+}
+.notifi{
+    color: rgb(83, 82, 82);
+    text-decoration: underline;
+}
 
-
+/* NAV */
+.contact-search{
+    width: 100%;
+    height: 2rem;
+}
 /* HOME */
 .home{
     
