@@ -46,6 +46,11 @@ body{
     justify-content: space-between;
     
 }
+
+/* MARGINI */
+.ml{
+    margin-left: .5rem;
+}
 /* SERCH */
 .serch{
     
@@ -109,6 +114,10 @@ body{
 .ora{
     margin-left: 5rem;
 }
+
+.contact p, .ora {
+    color: #c8cbcd;
+}
 /* HOME */
 .home{
     
@@ -116,6 +125,41 @@ body{
     width: calc(100% - 300px);
     /* debug */
     background-color: blue;
+}
+ header{
+    height: 70px;
+    border: 1px solid green;
+}
+
+footer{
+    height: 70px;
+    border: 1px solid red;
+}
+
+#right main{
+    height: calc(100% - 70px - 70px);
+    background-image: url(../img/mine.jpg);
+}
+#chat .row{
+    padding: 2rem 1rem;
+}
+.ricevuto {
+   padding: .5rem;
+    background-color: lightgreen;
+    border-radius: 5px;
+    max-width: 60%;
+    min-width: 40%;
+}
+.invio{
+    padding: .5rem;
+    background-color: rgb(249, 250, 249);
+    border-radius: 5px;
+    max-width: 60%;
+    min-width: 40%;
+}
+.invio-row{
+    display: flex;
+    justify-content: end;
 }
 
 /* RESPONSIVE  TABLET */
@@ -134,6 +178,9 @@ body{
     }
     .home{
         width: calc(100% - 60px);
+    }
+    #chat .row{
+        padding: 2rem 1rem;
     }
 }
 
